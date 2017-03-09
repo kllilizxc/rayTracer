@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment_3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_4">
+				<Option output="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Assignment_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++/mingw32"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_4"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_4/fast">
+				<Option output="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Assignment_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include-fixed"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/../../../../mingw32/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++/mingw32"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/mingw32/4.8.1/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_4/fast"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/camera.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/glCanvas.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/glCanvas.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/group.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/hit.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/image.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/image.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/light.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/light.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/main.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/material.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/matrix.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/matrix.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/object3D.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/orthographicCamera.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/orthographicCamera.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/perspectiveCamera.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/perspectiveCamera.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/phongMaterial.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/phongMaterial.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/plane.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/plane.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/ray.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTree.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTree.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/scene_parser.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/scene_parser.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/sphere.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/sphere.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/transform.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/triangle.cpp">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/triangle.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/vectors.h">
+			<Option target="Assignment_4"/>
+		</Unit>
+		<Unit filename="C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
