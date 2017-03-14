@@ -27,10 +27,10 @@ GL/gl.h
 -
 Grid.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h
-rayTree.h
-C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTree.h
 phongMaterial.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/phongMaterial.h
+rayTree.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTree.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h
 object3D.h
@@ -49,10 +49,28 @@ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignmen
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.cpp
 MarchingInfo.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h
+RayTracingStats.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h
 vectors.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/vectors.h
+
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.cpp
+stdio.h
+-
+RayTracingStats.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
+
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
+time.h
+-
+limits.h
+-
+vectors.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/vectors.h
+BoundingBox.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/boundingbox.h
 vectors.h
@@ -165,6 +183,8 @@ image.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/image.h
 rayTracer.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.h
+RayTracingStats.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/material.h
 vectors.h
@@ -265,6 +285,8 @@ GL/gl.h
 -
 plane.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/plane.h
+RayTracingStats.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/plane.h
 object3D.h
@@ -285,6 +307,8 @@ light.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/light.h
 rayTree.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTree.h
+RayTracingStats.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.h
 scene_parser.h
@@ -353,6 +377,10 @@ sphere.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/sphere.h
 Grid.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h
+matrix.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/matrix.h
+RayTracingStats.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/sphere.h
 object3D.h
@@ -375,6 +403,8 @@ matrix.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/matrix.h
 Grid.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h
+RayTracingStats.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/triangle.h
 object3D.h

@@ -25,6 +25,8 @@ public:
     virtual void insertIntoGrid(Grid *g, Matrix *m);
 
 private:
+    void calculateBoundingBox(const Vec3f& center, float radius);
+
     Vec3f center;
     float radius;
 };

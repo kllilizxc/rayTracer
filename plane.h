@@ -16,6 +16,8 @@ public:
 
     virtual void paint(void);
 
+    virtual void insertIntoGrid(Grid *g, Matrix *m);
+
 private:
     Vec3f normal;
     float d;

@@ -6,11 +6,6 @@
 
 #include <assert.h>
 
-#define min2(a,b) (((a)<(b))?(a):(b))
-#define min3(a,b,c) (((a)<(min2(b,c)))?(a):(min2(b,c)))
-#define max2(a,b) (((a)>(b))?(a):(b))
-#define max3(a,b,c) (((a)>(max2(b,c)))?(a):(max2(b,c)))
-
 // ====================================================================
 // ====================================================================
 
@@ -54,6 +49,7 @@ public:
         Extend(bb->max); }
 
     bool intersect(const Ray &r, Hit &h_min, Hit &h_max, float tmin) {
+
         Vec3f size = max - min;
         Vec3f boundsMin = min;
         Vec3f boundsMax = min;
@@ -88,7 +84,9 @@ public:
         else if(t_max == t_max_v.y()) h_max.setNormal(Vec3f(0, -rayDir.y(), 0));
         else if(t_max == t_max_v.z()) h_max.setNormal(Vec3f(0, 0, -rayDir.z()));
 
-        if(t_min < t_max && t_max > 0 && fabs(t_min) > tmin) {
+        float eps = 0.01;
+
+        if(t_max - t_min > eps && t_max > eps) {
             h_min.setT(t_min, r);
             h_max.setT(t_max, r);
             return true;

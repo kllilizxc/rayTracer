@@ -19,6 +19,9 @@ public:
     virtual void insertIntoGrid(Grid *g, Matrix *m);
 
 private:
+
+    void calculateBoundingBox(const Vec3f &a, const Vec3f &b, const Vec3f &c);
+
     Vec3f a;
     Vec3f b;
     Vec3f c;

@@ -6,6 +6,7 @@
 #include "Group.h"
 #include "light.h"
 #include "rayTree.h"
+#include "RayTracingStats.h"
 
 #define EPSILON 0.001
 
@@ -17,9 +18,11 @@ RayTracer::RayTracer(SceneParser *s, int max_bounces, float cutoff_weight, bool 
           grid(grid),
           visualize_grid(visualizeGrid) {
     Group *group = sp->getGroup();
-    if(visualizeGrid) {
+    if (visualizeGrid) {
+        auto *transformMatrix = new Matrix();
+        transformMatrix->SetToIdentity();
         grid->setBoundingBox(group->getBoundingBox());
-        group->insertIntoGrid(grid, NULL); //TODO parameter 2  matrix
+        group->insertIntoGrid(grid, transformMatrix);
     }
 }
 
@@ -64,25 +67,15 @@ Vec3f RayTracer::traceRay(Ray &ray, float tmin, int bounces, float weight, float
             shadowHit.set(INFINITY, shadowHit.getMaterial(), shadowHit.getNormal(), shadowRay);
 
             //if intersect, discard the contribution
-            if (visualize_grid) {
-                if (!grid->intersect(shadowRay, shadowHit, EPSILON) &&
-                    shadowRay.getDirection().Dot3(shadowHit.getNormal()) < 0 &&
-                        shadowHit.getT() < distanceToLight) {
-                    color += material->Shade(ray, hit, dir, col);
-                } else {
-                    //shadow segment
-                    RayTree::AddShadowSegment(shadowRay, 0, shadowHit.getT());
-                }
+            if (!group->shadowIntersect(shadowRay, shadowHit, EPSILON, distanceToLight)) {
+                //add contribution
+                color += material->Shade(ray, hit, dir, col);
             } else {
-                if (!group->shadowIntersect(shadowRay, shadowHit, EPSILON, distanceToLight)) {
-                    //add contribution
-                    color += material->Shade(ray, hit, dir, col);
-                } else {
-                    //shadow segment
-                    RayTree::AddShadowSegment(shadowRay, 0, shadowHit.getT());
-                }
+                //shadow segment
+                RayTree::AddShadowSegment(shadowRay, 0, shadowHit.getT());
             }
         }
+
 
     //reflect
     Vec3f reflectiveColor = material->getReflectiveColor();
@@ -105,7 +98,7 @@ Vec3f RayTracer::traceRay(Ray &ray, float tmin, int bounces, float weight, float
     }
 
     //if grid mode, return
-    if (visualize_grid) return color;
+    if (visualize_grid) return color * 2; //TODO for debug
 
     //refraction
     Vec3f transparentColor = material->getTransparentColor();

@@ -20,9 +20,20 @@ CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../ray.h
 CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../rayTree.h
 CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../vectors.h
 
+CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.obj: ../BoundingBox.h
 CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.obj: ../MarchingInfo.cpp
 CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.obj: ../MarchingInfo.h
+CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.obj: ../RayTracingStats.h
+CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.obj: ../hit.h
+CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.obj: ../ray.h
 CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.obj: ../vectors.h
+
+CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.obj: ../BoundingBox.h
+CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.obj: ../RayTracingStats.cpp
+CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.obj: ../RayTracingStats.h
+CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.obj: ../hit.h
+CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.obj: ../ray.h
+CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.obj: ../vectors.h
 
 CMakeFiles/Assignment_5.dir/glCanvas.cpp.obj: ../BoundingBox.h
 CMakeFiles/Assignment_5.dir/glCanvas.cpp.obj: ../Grid.h
@@ -65,6 +76,7 @@ CMakeFiles/Assignment_5.dir/light.cpp.obj: ../vectors.h
 CMakeFiles/Assignment_5.dir/main.cpp.obj: ../BoundingBox.h
 CMakeFiles/Assignment_5.dir/main.cpp.obj: ../Grid.h
 CMakeFiles/Assignment_5.dir/main.cpp.obj: ../MarchingInfo.h
+CMakeFiles/Assignment_5.dir/main.cpp.obj: ../RayTracingStats.h
 CMakeFiles/Assignment_5.dir/main.cpp.obj: ../camera.h
 CMakeFiles/Assignment_5.dir/main.cpp.obj: ../glCanvas.h
 CMakeFiles/Assignment_5.dir/main.cpp.obj: ../group.h
@@ -128,6 +140,7 @@ CMakeFiles/Assignment_5.dir/phongMaterial.cpp.obj: ../triangle.h
 CMakeFiles/Assignment_5.dir/phongMaterial.cpp.obj: ../vectors.h
 
 CMakeFiles/Assignment_5.dir/plane.cpp.obj: ../BoundingBox.h
+CMakeFiles/Assignment_5.dir/plane.cpp.obj: ../RayTracingStats.h
 CMakeFiles/Assignment_5.dir/plane.cpp.obj: ../hit.h
 CMakeFiles/Assignment_5.dir/plane.cpp.obj: ../material.h
 CMakeFiles/Assignment_5.dir/plane.cpp.obj: ../object3D.h
@@ -140,6 +153,7 @@ CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../BoundingBox.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../Grid.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../Group.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../MarchingInfo.h
+CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../RayTracingStats.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../camera.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../group.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../hit.h
@@ -191,8 +205,10 @@ CMakeFiles/Assignment_5.dir/scene_parser.cpp.obj: ../vectors.h
 CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../BoundingBox.h
 CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../Grid.h
 CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../MarchingInfo.h
+CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../RayTracingStats.h
 CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../hit.h
 CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../material.h
+CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../matrix.h
 CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../object3D.h
 CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../object3dvector.h
 CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../ray.h
@@ -203,6 +219,7 @@ CMakeFiles/Assignment_5.dir/sphere.cpp.obj: ../vectors.h
 CMakeFiles/Assignment_5.dir/triangle.cpp.obj: ../BoundingBox.h
 CMakeFiles/Assignment_5.dir/triangle.cpp.obj: ../Grid.h
 CMakeFiles/Assignment_5.dir/triangle.cpp.obj: ../MarchingInfo.h
+CMakeFiles/Assignment_5.dir/triangle.cpp.obj: ../RayTracingStats.h
 CMakeFiles/Assignment_5.dir/triangle.cpp.obj: ../hit.h
 CMakeFiles/Assignment_5.dir/triangle.cpp.obj: ../material.h
 CMakeFiles/Assignment_5.dir/triangle.cpp.obj: ../matrix.h

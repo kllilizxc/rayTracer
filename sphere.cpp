@@ -5,6 +5,9 @@
 #include <GL/gl.h>
 #include "sphere.h"
 #include "Grid.h"
+#include "matrix.h"
+#include "RayTracingStats.h"
+
 #define PI 3.1415926
 
 int Sphere::thetaSteps = 1;
@@ -14,12 +17,13 @@ int Sphere::phiSteps = 1;
 bool Sphere::gouraud = false;
 
 Sphere::Sphere(Vec3f center, float radius, Material *material) : Object3D(material), center(center), radius(radius) {
-    Vec3f max = center + Vec3f(radius, radius, radius);
-    Vec3f min = center - Vec3f(radius, radius, radius);
-    setBoundingBox(min, max);
+    calculateBoundingBox(center, radius);
 }
 
 bool Sphere::intersect(const Ray &r, Hit &h, float tmin) {
+
+    //update RayTracingStats
+    RayTracingStats::IncrementNumIntersecstions();
 
     Vec3f Ro = r.getOrigin() - center;
     double r2 = radius * radius;
@@ -94,6 +98,13 @@ void Sphere::paint(void) {
 }
 
 void Sphere::insertIntoGrid(Grid *g, Matrix *m) {
+    //handle transform
+    Vec3f _center = center;
+    float _radius = radius; //TODO transform radius
+    m->Transform(_center);
+    calculateBoundingBox(_center, radius);
+
+
     BoundingBox *bb = g->getBoundingBox();
     Vec3f min = bb->getMin();
     Vec3f max = bb->getMax();
@@ -110,6 +121,12 @@ void Sphere::insertIntoGrid(Grid *g, Matrix *m) {
             }
         }
     }
+}
+
+void Sphere::calculateBoundingBox(const Vec3f &center, float radius) {
+    Vec3f max = center + Vec3f(radius, radius, radius);
+    Vec3f min = center - Vec3f(radius, radius, radius);
+    setBoundingBox(min, max);
 }
 
 

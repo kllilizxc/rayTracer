@@ -12,7 +12,33 @@
 class Transform : Object3D {
 public:
     Transform(Matrix &m, Object3D *o) : m(m), o(o) {
-        //TODO compute bounding box
+        BoundingBox *bb = o->getBoundingBox();
+        Vec3f max = bb->getMax();
+        Vec3f min = bb->getMin();
+        Vec3f size = max - min;
+
+        //get untransformed vecs
+        Vec3f vecs[] = {
+                min,
+                min + Vec3f(1, 0, 0) * size,
+                min + Vec3f(0, 1, 0) * size,
+                min + Vec3f(0, 0, 1) * size,
+                max - Vec3f(1, 0, 0) * size,
+                max - Vec3f(0, 1, 0) * size,
+                max - Vec3f(0, 0, 1) * size,
+                max
+        };
+
+        //get max and min of transformed vecs
+        Vec3f _max, _min;
+        Vec3f::Max(_max, vecs[0], vecs[1]);
+        Vec3f::Min(_min, vecs[0], vecs[1]);
+        for (int i = 0; i < 6; ++i) {
+            Vec3f::Max(_max, _max, vecs[i + 2]);
+            Vec3f::Min(_min, _min, vecs[i + 2]);
+        }
+
+        setBoundingBox(_min, _max);
     }
 
     bool intersect(const Ray &r, Hit &h, float tmin) {
@@ -41,6 +67,11 @@ public:
         normal.Normalize();
         h.set(d.Length(), h.getMaterial(), normal, r);
         return true;
+    }
+
+    virtual void insertIntoGrid(Grid *g, Matrix *m) {
+        *m *= this->m;
+        o->insertIntoGrid(g, m);
     }
 
     virtual void paint(void) {

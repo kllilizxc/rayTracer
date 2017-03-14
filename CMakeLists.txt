@@ -8,6 +8,6 @@ set(SOURCE_FILES main.cpp hit.h material.h object3D.h ray.h scene_parser.h scene
         orthographicCamera.cpp image.h image.cpp light.h light.cpp perspectiveCamera.cpp
         perspectiveCamera.h plane.h  plane.cpp triangle.h triangle.cpp transform.h glCanvas.h
         glCanvas.cpp phongMaterial.cpp phongMaterial.h rayTracer.cpp rayTracer.h rayTree.cpp
-        rayTree.h BoundingBox.cpp BoundingBox.h Grid.cpp Grid.h MarchingInfo.cpp MarchingInfo.h object3dvector.h)
+        rayTree.h BoundingBox.cpp BoundingBox.h Grid.cpp Grid.h MarchingInfo.cpp MarchingInfo.h object3dvector.h RayTracingStats.cpp RayTracingStats.h)
 add_executable(Assignment_5 ${SOURCE_FILES})
 target_link_libraries(Assignment_5 libopengl32.a libglu32.a libfreeglut.a)

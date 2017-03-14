@@ -21,8 +21,19 @@ CMakeFiles/Assignment_5.dir/Grid.cpp.obj
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTree.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/vectors.h
 CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.obj
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.cpp
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/hit.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/ray.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/vectors.h
+CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.obj
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.cpp
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/hit.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/ray.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/vectors.h
 CMakeFiles/Assignment_5.dir/glCanvas.cpp.obj
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h
@@ -66,6 +77,7 @@ CMakeFiles/Assignment_5.dir/main.cpp.obj
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/camera.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/glCanvas.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/group.h
@@ -129,6 +141,7 @@ CMakeFiles/Assignment_5.dir/phongMaterial.cpp.obj
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/vectors.h
 CMakeFiles/Assignment_5.dir/plane.cpp.obj
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/hit.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/material.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/object3D.h
@@ -141,6 +154,7 @@ CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Group.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/camera.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/group.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/hit.h
@@ -192,8 +206,10 @@ CMakeFiles/Assignment_5.dir/sphere.cpp.obj
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/hit.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/material.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/matrix.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/object3D.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/object3dvector.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/ray.h
@@ -204,6 +220,7 @@ CMakeFiles/Assignment_5.dir/triangle.cpp.obj
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h
+ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/hit.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/material.h
  C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/matrix.h

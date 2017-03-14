@@ -18,10 +18,10 @@ PerspectiveCamera::PerspectiveCamera(Vec3f center, Vec3f &direction, Vec3f &up, 
 }
 
 Ray PerspectiveCamera::generateRay(Vec2f point) {
-    Vec3f dirX = point.x() * tan(angle / 2) * horizontal;
-    Vec3f dirY = point.y() * tan(angle / 2) * up;
-//    Vec3f dirX = tan(angle / 2 * point.x()) * horizontal;
-//    Vec3f dirY = tan(angle / 2 * point.y()) * up;
+//    Vec3f dirX = point.x() * tan(angle / 2) * horizontal;
+//    Vec3f dirY = point.y() * tan(angle / 2) * up;
+    Vec3f dirX = tan(angle / 2 * point.x()) * horizontal;
+    Vec3f dirY = tan(angle / 2 * point.y()) * up;
     Vec3f dir = direction + dirX + dirY;
     dir.Normalize();
 

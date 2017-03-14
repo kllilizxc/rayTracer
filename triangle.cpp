@@ -6,18 +6,17 @@
 #include "triangle.h"
 #include "matrix.h"
 #include "Grid.h"
+#include "RayTracingStats.h"
 
 Triangle::Triangle(Vec3f &a, Vec3f &b, Vec3f &c, Material *m) : Object3D(m), a(a), b(b), c(c) {
-    Vec3f max, min;
-    Vec3f::Max(max, a, b);
-    Vec3f::Max(max, max, c);
-    Vec3f::Min(min, a, b);
-    Vec3f::Min(min, max, c);
-
-    setBoundingBox(min, max);
+    calculateBoundingBox(a, b, c);
 }
 
 bool Triangle::intersect(const Ray &r, Hit &h, float tmin) {
+
+    //update RayTracingStats
+    RayTracingStats::IncrementNumIntersecstions();
+
     float col1[3] = { a.x() - b.x(), a.y() - b.y(), a.z() - b.z() };
     float col2[3] = { a.x() - c.x(), a.y() - c.y(), a.z() - c.z() };
     float col3[3] = { r.getDirection().x(), r.getDirection().y(), r.getDirection().z() };
@@ -62,25 +61,39 @@ void Triangle::paint(void) {
 }
 
 void Triangle::insertIntoGrid(Grid *g, Matrix *m) {
-    BoundingBox *bb = g->getBoundingBox();
-    Vec3f min = bb->getMin();
-    Vec3f max = bb->getMax();
 
-    Vec3f gridSize = (max - min) / g->getSize();
+    //handle transform
+    Vec3f _a = a, _b = b, _c = c;
+    m->Transform(_a);
+    m->Transform(_b);
+    m->Transform(_c);
+    calculateBoundingBox(_a, _b, _c);
 
     for (int i = 0; i < g->getSize().x(); ++i) {
         for (int j = 0; j < g->getSize().y(); ++j) {
             for (int k = 0; k < g->getSize().z(); ++k) {
-                Vec3f gridMin = min + Vec3f(i, j, k) * gridSize;
-                Vec3f gridMax = min + Vec3f(i + 1, j + 1, k + 1) * gridSize;
+                Vec3f gridMin = g->at(i, j, k);
+                Vec3f gridMax = g->at(i + 1, j + 1, k + 1);
                 Vec3f bbMin = getBoundingBox()->getMin();
                 Vec3f bbMax = getBoundingBox()->getMax();
 
-                if((gridMin <= bbMin && gridMax >= bbMin) ||
-                        (gridMin <= bbMax && gridMax >= bbMax) ||
-                        (gridMin >= bbMin && gridMax <= bbMax))
+                if(!(gridMax.x() < bbMin.x() || gridMax.y() < bbMin.y() || gridMax.z() < bbMin.z() ||
+                     gridMin.x() > bbMax.x() || gridMin.y() > bbMax.y() || gridMin.z() > bbMax.z()))
                     g->setOpaque(i, j, k, this);
             }
         }
     }
+}
+
+void Triangle::calculateBoundingBox(const Vec3f &a, const Vec3f &b, const Vec3f &c) {
+    Vec3f max, min;
+    max.Set(max3(a.x(), b.x(), c.x()),
+            max3(a.y(), b.y(), c.y()),
+            max3(a.z(), b.z(), c.z()));
+
+    min.Set(min3(a.x(), b.x(), c.x()),
+            min3(a.y(), b.y(), c.y()),
+            min3(a.z(), b.z(), c.z()));
+
+    setBoundingBox(min, max);
 }

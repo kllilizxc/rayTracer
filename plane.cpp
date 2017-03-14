@@ -4,14 +4,16 @@
 
 #include <GL/gl.h>
 #include "plane.h"
+#include "RayTracingStats.h"
 
 Plane::Plane(Vec3f &normal, float d, Material *m) : Object3D(m), normal(normal), d(d) {
-    Vec3f max(INFINITY, INFINITY, INFINITY);
-    Vec3f min(-INFINITY, -INFINITY, -INFINITY);
-    setBoundingBox(max, min);
 }
 
 bool Plane::intersect(const Ray &r, Hit &h, float tmin) {
+
+    //update RayTracingStats
+    RayTracingStats::IncrementNumIntersecstions();
+
     if(!r.getDirection().Dot3(normal)) return false;
     float t = -(-d + r.getOrigin().Dot3(normal)) / (r.getDirection().Dot3(normal));
     if(t < tmin) return false;
@@ -43,4 +45,7 @@ void Plane::paint(void) {
         glVertex3f(points[i].x(), points[i].y(), points[i].z());
     }
     glEnd();
+}
+
+void Plane::insertIntoGrid(Grid *g, Matrix *m) {
 }

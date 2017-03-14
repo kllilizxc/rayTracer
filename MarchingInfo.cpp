@@ -3,6 +3,7 @@
 //
 
 #include "MarchingInfo.h"
+#include "RayTracingStats.h"
 
 float MarchingInfo::getTmin() const {
     return tmin;
@@ -13,6 +14,10 @@ void MarchingInfo::setTmin(float tmin) {
 }
 
 void MarchingInfo::nextCell() {
+
+    //update RayTracingStats
+    RayTracingStats::IncrementNumGridCellsTraversed();
+
     if(t_next.x() < t_next.y()) {
         if(t_next.x() < t_next.z()) {
             setTmin(t_next.x());

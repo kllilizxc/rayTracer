@@ -203,6 +203,33 @@ MarchingInfo.cpp.s:
 	$(MAKE) -f CMakeFiles\Assignment_5.dir\build.make CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.s
 .PHONY : MarchingInfo.cpp.s
 
+RayTracingStats.obj: RayTracingStats.cpp.obj
+
+.PHONY : RayTracingStats.obj
+
+# target to build an object file
+RayTracingStats.cpp.obj:
+	$(MAKE) -f CMakeFiles\Assignment_5.dir\build.make CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.obj
+.PHONY : RayTracingStats.cpp.obj
+
+RayTracingStats.i: RayTracingStats.cpp.i
+
+.PHONY : RayTracingStats.i
+
+# target to preprocess a source file
+RayTracingStats.cpp.i:
+	$(MAKE) -f CMakeFiles\Assignment_5.dir\build.make CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.i
+.PHONY : RayTracingStats.cpp.i
+
+RayTracingStats.s: RayTracingStats.cpp.s
+
+.PHONY : RayTracingStats.s
+
+# target to generate assembly for a file
+RayTracingStats.cpp.s:
+	$(MAKE) -f CMakeFiles\Assignment_5.dir\build.make CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.s
+.PHONY : RayTracingStats.cpp.s
+
 glCanvas.obj: glCanvas.cpp.obj
 
 .PHONY : glCanvas.obj
@@ -599,6 +626,9 @@ help:
 	@echo ... MarchingInfo.obj
 	@echo ... MarchingInfo.i
 	@echo ... MarchingInfo.s
+	@echo ... RayTracingStats.obj
+	@echo ... RayTracingStats.i
+	@echo ... RayTracingStats.s
 	@echo ... glCanvas.obj
 	@echo ... glCanvas.i
 	@echo ... glCanvas.s

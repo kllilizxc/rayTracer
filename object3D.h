@@ -13,7 +13,7 @@ class Grid;
 
 class Object3D {
 public:
-    Object3D(Material *material = NULL) : material(material), boundingBox(NULL) { };
+    Object3D(Material *material = NULL) : material(material), boundingBox(nullptr) { };
 
     virtual ~Object3D() {
         delete material;
@@ -115,7 +115,7 @@ public:
     }
 
     void setBoundingBox(BoundingBox *bb) {
-        assert(bb != NULL);
+        assert(bb != nullptr);
         setBoundingBox(bb->getMin(), bb->getMax());
     }
 

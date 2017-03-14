@@ -20,6 +20,8 @@ public:
 
     bool intersect(const Ray &r, Hit &h, float tmin);
 
+    Vec3f at(int i, int j, int k);
+
     void paint(void);
 
     void print();
@@ -34,11 +36,31 @@ public:
 
 private:
 
+    void setCurrentColor(int i, int j, int k);
+
+    Vec3f& getCurrentColor();
+
+    void drawQuadsAtXAxis(const Vec3f &min);
+
+    void drawQuadsAtYAxis(const Vec3f &min);
+
+    void drawQuadsAtZAxis(const Vec3f &min);
+
+    void drawQuads(const Vec3f &a, const Vec3f &b, const Vec3f &c, const Vec3f &d);
+
+    void drawTriangles(const Vec3f &a, const Vec3f &b, const Vec3f &c);
+
+    void drawBox(const Vec3f &min, const Vec3f &max);
+
+    static Vec3f colors[];
+
     Object3DVector ***opaque;
 
     Vec3f size;
 
-    void drawBox(const Vec3f &min, const Vec3f &max);
+    Vec3f gridSize;
+
+    Vec3f currentColor;
 };
 
 

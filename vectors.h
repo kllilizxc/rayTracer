@@ -15,6 +15,11 @@ using namespace std;
 #include <math.h>
 #include <assert.h>
 
+#define min2(a,b) (((a)<(b))?(a):(b))
+#define min3(a,b,c) (((a)<(min2(b,c)))?(a):(min2(b,c)))
+#define max2(a,b) (((a)>(b))?(a):(b))
+#define max3(a,b,c) (((a)>(max2(b,c)))?(a):(max2(b,c)))
+
 class Matrix;
 
 // ====================================================================
@@ -327,6 +332,18 @@ public:
                data[1] <= V.data[1] &&
                data[2] <= V.data[2];
      }
+
+    bool operator>(const Vec3f& V) {
+        return data[0] > V.data[0] &&
+               data[1] > V.data[1] &&
+               data[2] > V.data[2];
+    }
+
+    bool operator<(const Vec3f& V) {
+        return data[0] < V.data[0] &&
+               data[1] < V.data[1] &&
+               data[2] < V.data[2];
+    }
 
     Vec3f &operator+=(const Vec3f &V) {
         data[0] += V.data[0];

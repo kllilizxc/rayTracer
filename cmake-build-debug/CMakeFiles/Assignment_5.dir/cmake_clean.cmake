@@ -16,6 +16,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Assignment_5.dir/BoundingBox.cpp.obj"
   "CMakeFiles/Assignment_5.dir/Grid.cpp.obj"
   "CMakeFiles/Assignment_5.dir/MarchingInfo.cpp.obj"
+  "CMakeFiles/Assignment_5.dir/RayTracingStats.cpp.obj"
   "Assignment_5.pdb"
   "Assignment_5.exe"
   "Assignment_5.exe.manifest"
