@@ -34,7 +34,7 @@ Grid::Grid(BoundingBox *bb, int nx, int ny, int nz) {
 
 }
 
-bool Grid::intersect(const Ray &r, Hit &h, float tmin) {
+bool Grid::traverse(const Ray &r, Hit &h, float tmin) {
     //update RayTracingStats
     RayTracingStats::IncrementNumIntersecstions();
 
@@ -78,9 +78,7 @@ bool Grid::intersect(const Ray &r, Hit &h, float tmin) {
 #ifdef __DEBUG
                 h.set(1000, traceMaterial, mi.getNormal(), r);
 #else
-                Material *renderMaterial = new PhongMaterial(getCurrentColor(), Vec3f(0, 0, 0), 0, Vec3f(0, 0, 0), Vec3f(0, 0, 0),
-                                                             0);
-                h.set(mi.getTmin(), renderMaterial, mi.getNormal(), r);
+                h.set(mi.getTmin(), traceMaterial, mi.getNormal(), r);
 #endif
 #ifdef __VERBOSE
                 std::cout << "tMin is set to " << h.getT() << std::endl;
@@ -367,4 +365,37 @@ void Grid::setCurrentColor(int i, int j, int k) {
 
 Vec3f &Grid::getCurrentColor() {
     return currentColor;
+}
+
+bool Grid::intersect(const Ray &r, Hit &h, float tmin) {
+    //update RayTracingStats
+    RayTracingStats::IncrementNumIntersecstions();
+
+    MarchingInfo mi;
+    if (!initializeRayMarch(mi, r, tmin)) return false;
+    Vec3i index = mi.getIndex();
+
+    while (index.x() >= 0 && index.x() < getSize().x() &&
+           index.y() >= 0 && index.y() < getSize().y() &&
+           index.z() >= 0 && index.z() < getSize().z()) {
+        Object3DVector objects = opaque[index.x()][index.y()][index.z()];
+        if (objects.getNumObjects() > 0) {
+            //if hit
+            bool hit = false;
+            h.set(INFINITY, h.getMaterial(), h.getNormal(), r);
+            for (int i = 0; i <  objects.getNumObjects(); ++i) {
+                Hit _h;
+                if (objects.getObject(i)->intersect(r, _h, tmin)) {
+                    hit = true;
+                    if (h.getT() > _h.getT()) h = _h;
+                };
+            }
+            return hit;
+        }
+
+        mi.nextCell();
+        index = mi.getIndex();
+
+    }
+    return false;
 }

@@ -18,6 +18,8 @@ public:
 
     void setOpaque(int x, int y, int z, Object3D *val);
 
+    bool traverse(const Ray &r, Hit &h, float tmin);
+
     bool intersect(const Ray &r, Hit &h, float tmin);
 
     Vec3f at(int i, int j, int k);

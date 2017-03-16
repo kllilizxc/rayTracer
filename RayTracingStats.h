@@ -28,7 +28,7 @@ public:
     // Call for each shadow ray
     static void IncrementNumShadowRays() { num_shadow_rays++; }
 
-    // Add this to each Object3D primitive's intersect routine
+    // Add this to each Object3D primitive's traverse routine
     // (but not group and transform).
     // This is a count of the number of times ray-primitive intersection
     // is computed, not the number of times it returns true

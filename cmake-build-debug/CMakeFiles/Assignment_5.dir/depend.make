@@ -11,6 +11,7 @@ CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../BoundingBox.h
 CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../Grid.cpp
 CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../Grid.h
 CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../MarchingInfo.h
+CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../RayTracingStats.h
 CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../hit.h
 CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../material.h
 CMakeFiles/Assignment_5.dir/Grid.cpp.obj: ../object3D.h
@@ -151,9 +152,7 @@ CMakeFiles/Assignment_5.dir/plane.cpp.obj: ../vectors.h
 
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../BoundingBox.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../Grid.h
-CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../Group.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../MarchingInfo.h
-CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../RayTracingStats.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../camera.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../group.h
 CMakeFiles/Assignment_5.dir/rayTracer.cpp.obj: ../hit.h

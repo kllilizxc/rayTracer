@@ -29,6 +29,10 @@ public:
         intersectionPoint = h.intersectionPoint;
     }
 
+    Hit(const Ray ray, float t) {
+        setT(t, ray);
+    }
+
     ~Hit() {}
 
     // ACCESSORS

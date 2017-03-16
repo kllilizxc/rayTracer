@@ -309,40 +309,52 @@ public:
         return *this;
     }
 
-    int operator==(const Vec3f &V) {
+    int operator==(const Vec3f &V) const {
         return ((data[0] == V.data[0]) &&
                 (data[1] == V.data[1]) &&
                 (data[2] == V.data[2]));
     }
 
-    int operator!=(const Vec3f &V) {
+    int operator!=(const Vec3f &V) const {
         return ((data[0] != V.data[0]) ||
                 (data[1] != V.data[1]) ||
                 (data[2] != V.data[2]));
     }
 
-    bool operator>=(const Vec3f& V) {
+    bool operator>=(const Vec3f& V) const {
         return data[0] >= V.data[0] &&
                data[1] >= V.data[1] &&
                data[2] >= V.data[2];
     }
 
-    bool operator<=(const Vec3f& V) {
+    bool operator<=(const Vec3f& V) const {
         return data[0] <= V.data[0] &&
                data[1] <= V.data[1] &&
                data[2] <= V.data[2];
      }
 
-    bool operator>(const Vec3f& V) {
+    bool operator>(const Vec3f& V) const {
         return data[0] > V.data[0] &&
                data[1] > V.data[1] &&
                data[2] > V.data[2];
     }
 
-    bool operator<(const Vec3f& V) {
+    bool operator<(const Vec3f& V) const {
         return data[0] < V.data[0] &&
                data[1] < V.data[1] &&
                data[2] < V.data[2];
+    }
+
+    friend bool operator<(const Vec3f& V1, Vec3f& V2) {
+        return V1.data[0] < V2.data[0] &&
+               V1.data[1] < V2.data[1] &&
+               V1.data[2] < V2.data[2];
+    }
+
+    friend bool operator>(const Vec3f& V1, Vec3f& V2) {
+        return V1.data[0] > V2.data[0] &&
+               V1.data[1] > V2.data[1] &&
+               V1.data[2] > V2.data[2];
     }
 
     Vec3f &operator+=(const Vec3f &V) {

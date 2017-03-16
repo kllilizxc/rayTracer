@@ -27,10 +27,9 @@ public:
         return hit;
     };
 
-    bool shadowIntersect(const Ray &r, Hit &h, float tmin, float distanceToLight) {
+    bool shadowIntersect(const Ray &r, Hit &h, float tmin) {
         for (int i = 0; i < size; ++i) {
-            if (instances[i]->intersect(r, h, tmin) && r.getDirection().Dot3(h.getNormal()) < 0 &&
-                h.getT() < distanceToLight)
+            if (instances[i]->intersect(r, h, tmin) && r.getDirection().Dot3(h.getNormal()) < 0)
                 return true;
         }
         return false;

@@ -13,7 +13,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff36c05d-f801-4b57-a893-9c908f190584" name="Default" comment="" />
+    <list default="true" id="ff36c05d-f801-4b57-a893-9c908f190584" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment_5.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment_5.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/output5_01b.tga" afterPath="$PROJECT_DIR$/cmake-build-debug/output5_01b.tga" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grid.cpp" afterPath="$PROJECT_DIR$/Grid.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grid.h" afterPath="$PROJECT_DIR$/Grid.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RayTracingStats.h" afterPath="$PROJECT_DIR$/RayTracingStats.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/group.h" afterPath="$PROJECT_DIR$/group.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hit.h" afterPath="$PROJECT_DIR$/hit.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ray.h" afterPath="$PROJECT_DIR$/ray.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rayTracer.cpp" afterPath="$PROJECT_DIR$/rayTracer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rayTracer.h" afterPath="$PROJECT_DIR$/rayTracer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vectors.h" afterPath="$PROJECT_DIR$/vectors.h" />
+    </list>
     <ignored path="Assignment 4.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,20 +51,44 @@
           <file leaf-file-name="BoundingBox.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/BoundingBox.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <state relative-caret-position="702">
+                  <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#51#71#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RayTracingStats.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/RayTracingStats.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1122">
+                  <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#59#76#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ray.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ray.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RayTracingStats.h" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/RayTracingStats.h">
+          <file leaf-file-name="hit.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/hit.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="627">
-                  <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+                <state relative-caret-position="1107">
+                  <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
                   <folding>
-                    <element signature="e#59#76#0" expanded="true" />
+                    <element signature="e#31#51#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -59,22 +97,10 @@
           <file leaf-file-name="RayTracingStats.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/RayTracingStats.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-675">
-                  <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <state relative-caret-position="54">
+                  <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="transform.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/transform.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="594">
-                  <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-                  <folding>
-                    <element signature="e#109#127#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -83,8 +109,8 @@
           <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="978">
-                  <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+                <state relative-caret-position="510">
+                  <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
                   <folding>
                     <element signature="e#19#38#0" expanded="true" />
                   </folding>
@@ -92,20 +118,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="glCanvas.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/glCanvas.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="703">
-                  <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="glCanvas.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/glCanvas.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="627">
+                <state relative-caret-position="7938">
                   <caret line="294" column="15" lean-forward="false" selection-start-line="294" selection-start-column="15" selection-end-line="294" selection-end-column="15" />
                   <folding>
                     <element signature="e#3868#4537#0" expanded="true" />
@@ -117,8 +133,8 @@
           <file leaf-file-name="MarchingInfo.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/MarchingInfo.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="648">
-                  <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+                <state relative-caret-position="675">
+                  <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
                   <folding>
                     <element signature="e#41#66#0" expanded="true" />
                   </folding>
@@ -126,23 +142,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="group.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/group.h">
+          <file leaf-file-name="rayTracer.h" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/rayTracer.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1537">
-                  <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#100#117#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="405">
+                  <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="perspectiveCamera.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/perspectiveCamera.cpp">
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="783">
-                  <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+                <state relative-caret-position="81">
+                  <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -152,11 +166,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-          <file leaf-file-name="rayTracer.cpp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="rayTracer.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/rayTracer.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
-                  <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+                <state relative-caret-position="-4380">
+                  <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
                   <folding>
                     <element signature="e#41#63#0" expanded="true" />
                   </folding>
@@ -164,58 +178,42 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="plane.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/plane.cpp">
+          <file leaf-file-name="light.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/light.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-                  <folding>
-                    <element signature="e#42#60#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="matrix.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/matrix.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="837">
-                  <caret line="142" column="15" lean-forward="false" selection-start-line="142" selection-start-column="15" selection-end-line="142" selection-end-column="15" />
+                <state relative-caret-position="1188">
+                  <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sphere.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sphere.cpp">
+          <file leaf-file-name="phongMaterial.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/phongMaterial.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="594">
-                  <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="25" selection-end-column="50" />
-                  <folding>
-                    <element signature="e#41#59#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="matrix.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/matrix.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="987">
-                  <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+                <state relative-caret-position="540">
+                  <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="triangle.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/triangle.cpp">
+          <file leaf-file-name="phongMaterial.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/phongMaterial.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-                  <folding>
-                    <element signature="e#42#60#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="810">
+                  <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="material.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/material.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="846">
+                  <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -223,43 +221,45 @@
           <file leaf-file-name="vectors.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/vectors.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="997">
-                  <caret line="200" column="21" lean-forward="false" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
+                <state relative-caret-position="695">
+                  <caret line="353" column="43" lean-forward="false" selection-start-line="353" selection-start-column="43" selection-end-line="353" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="object3D.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/object3D.h">
+          <file leaf-file-name="group.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/group.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+                <state relative-caret-position="494">
+                  <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
                   <folding>
-                    <element signature="e#106#122#0" expanded="true" />
+                    <element signature="e#100#117#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sphere.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sphere.h">
+          <file leaf-file-name="Grid.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Grid.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="584">
-                  <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-                  <folding />
+                <state relative-caret-position="846">
+                  <caret line="369" column="11" lean-forward="false" selection-start-line="369" selection-start-column="11" selection-end-line="369" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#41#59#0" expanded="true" />
+                    <marker date="1489591983390" expanded="true" signature="9236:10792" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Grid.cpp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Grid.cpp">
+          <file leaf-file-name="object3dvector.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/object3dvector.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="945">
-                  <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                <state relative-caret-position="455">
+                  <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
                   <folding>
-                    <element signature="e#41#59#0" expanded="true" />
-                    <marker date="1489497622815" expanded="true" signature="9434:10990" ph="{...}" />
+                    <element signature="e#59#78#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -271,9 +271,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>diff</find>
-      <find>initial</find>
-      <find>init</find>
       <find>std::cout</find>
       <find>intersec</find>
       <find>shadows</find>
@@ -301,12 +298,18 @@
       <find>identi</find>
       <find>max</find>
       <find>stat</find>
+      <find>operator&gt;</find>
+      <find>friend</find>
+      <find>f</find>
     </findStrings>
     <replaceStrings>
       <replace>d_t.z()</replace>
       <replace>gridSize.x()</replace>
       <replace>nullptr</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -316,25 +319,18 @@
         <option value="$PROJECT_DIR$/phongMaterial.cpp" />
         <option value="$PROJECT_DIR$/rayTree.h" />
         <option value="$PROJECT_DIR$/rayTree.cpp" />
-        <option value="$PROJECT_DIR$/ray.h" />
         <option value="$PROJECT_DIR$/glCanvas.cpp" />
         <option value="$PROJECT_DIR$/MarchingInfo.h" />
-        <option value="$PROJECT_DIR$/hit.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/rayTracer.h" />
         <option value="$PROJECT_DIR$/BoundingBox.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
         <option value="$PROJECT_DIR$/scene_parser.h" />
         <option value="$PROJECT_DIR$/glCanvas.h" />
         <option value="$PROJECT_DIR$/object3dvector.h" />
         <option value="$PROJECT_DIR$/scene_parser.cpp" />
-        <option value="$PROJECT_DIR$/object3D.h" />
         <option value="$PROJECT_DIR$/plane.h" />
-        <option value="$PROJECT_DIR$/vectors.h" />
-        <option value="$PROJECT_DIR$/Grid.h" />
         <option value="$PROJECT_DIR$/orthographicCamera.h" />
         <option value="$PROJECT_DIR$/perspectiveCamera.cpp" />
-        <option value="$PROJECT_DIR$/group.h" />
         <option value="$PROJECT_DIR$/matrix.h" />
         <option value="$PROJECT_DIR$/triangle.h" />
         <option value="$PROJECT_DIR$/sphere.h" />
@@ -347,9 +343,16 @@
         <option value="$PROJECT_DIR$/MarchingInfo.cpp" />
         <option value="$PROJECT_DIR$/RayTracingStats.h" />
         <option value="$PROJECT_DIR$/BoundingBox.h" />
-        <option value="$PROJECT_DIR$/rayTracer.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/ray.h" />
+        <option value="$PROJECT_DIR$/Grid.h" />
+        <option value="$PROJECT_DIR$/object3D.h" />
         <option value="$PROJECT_DIR$/Grid.cpp" />
+        <option value="$PROJECT_DIR$/hit.h" />
+        <option value="$PROJECT_DIR$/group.h" />
+        <option value="$PROJECT_DIR$/vectors.h" />
+        <option value="$PROJECT_DIR$/rayTracer.h" />
+        <option value="$PROJECT_DIR$/rayTracer.cpp" />
       </list>
     </option>
   </component>
@@ -399,7 +402,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="increment&#9;null&#9;null&#10;main&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/main.cpp&#10;Increment&#9;null&#9;null&#10;render&#9;null&#9;null&#10;nextC&#9;null&#9;null&#10;intersect&#9;null&#9;null&#10;intersec&#9;null&#9;null&#10;interse&#9;null&#9;null&#10;mai&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/main.cpp&#10;Ray&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.cpp&#10;trans&#9;null&#9;null&#10;bounding&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h&#10;triangle&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/triangle.cpp&#10;sphere&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/sphere.cpp&#10;trian&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/triangle.cpp&#10;group&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/group.h&#10;obje&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/object3D.h&#10;scene&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/scene_parser.cpp&#10;pers&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/perspectiveCamera.cpp&#10;ma&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/main.cpp&#10;ray&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.cpp&#10;grid&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h&#10;per&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/perspectiveCamera.cpp&#10;bound&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h&#10;ortho&#9;null&#9;null&#10;camera&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/camera.h&#10;ra&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.cpp&#10;gr&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.cpp&#10;paint&#9;null&#9;null&#10;gri&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.cpp&#10;tr&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/triangle.cpp&#10;max&#9;null&#9;null&#10;plane&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/plane.h&#10;grou&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/group.h&#10;GL&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/glCanvas.cpp&#10;sp&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/sphere.cpp&#10;g&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/group.h&#10;Cma&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/CMakeLists.txt&#10;hit&#9;null&#9;null&#10;marching&#9;null&#9;null&#10;initializeMa&#9;null&#9;null&#10;vec3i&#9;null&#9;null&#10;mar&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h&#10;ve&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/vectors.h&#10;glcan&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/glCanvas.cpp&#10;glC &#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/glCanvas.h&#10;b&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h&#10;bou&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h&#10;sph&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/sphere.cpp&#10;mian&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="ray&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.cpp&#10;main&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/main.cpp&#10;vec3&#9;null&#9;null&#10;light&#9;null&#9;null&#10;phong&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/phongMaterial.h&#10;dire&#9;null&#9;null&#10;rayTra&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.h&#10;grid&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h&#10;shadowIn&#9;null&#9;null&#10;increment&#9;null&#9;null&#10;Increment&#9;null&#9;null&#10;render&#9;null&#9;null&#10;nextC&#9;null&#9;null&#10;intersect&#9;null&#9;null&#10;intersec&#9;null&#9;null&#10;interse&#9;null&#9;null&#10;mai&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/main.cpp&#10;Ray&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.cpp&#10;trans&#9;null&#9;null&#10;bounding&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h&#10;triangle&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/triangle.cpp&#10;sphere&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/sphere.cpp&#10;trian&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/triangle.cpp&#10;group&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/group.h&#10;obje&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/object3D.h&#10;scene&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/scene_parser.cpp&#10;pers&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/perspectiveCamera.cpp&#10;ma&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/main.cpp&#10;per&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/perspectiveCamera.cpp&#10;bound&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/BoundingBox.h&#10;ortho&#9;null&#9;null&#10;camera&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/camera.h&#10;ra&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.cpp&#10;gr&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.cpp&#10;paint&#9;null&#9;null&#10;gri&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.cpp&#10;tr&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/triangle.cpp&#10;max&#9;null&#9;null&#10;plane&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/plane.h&#10;grou&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/group.h&#10;GL&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/glCanvas.cpp&#10;sp&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/sphere.cpp&#10;g&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/group.h&#10;Cma&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/CMakeLists.txt&#10;hit&#9;null&#9;null&#10;marching&#9;null&#9;null&#10;initializeMa&#9;null&#9;null&#10;vec3i&#9;null&#9;null&#10;mar&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h&#10;ve&#9;FILE&#9;file://C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/vectors.h" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -720,12 +723,13 @@
       <workItem from="1486365323367" duration="1619000" />
       <workItem from="1486447763242" duration="2498000" />
       <workItem from="1487752639530" duration="86156000" />
-      <workItem from="1489037032148" duration="38874000" />
+      <workItem from="1489037032148" duration="40143000" />
+      <workItem from="1489502437225" duration="8791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208587000" />
+    <option name="totallyTimeSpent" value="218647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,16 +744,16 @@
     <frame x="-13" y="48" width="5146" height="2845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13183594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="1006" y="232" width="675" height="2630" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09710459" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="1006" y="232" width="675" height="2630" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40874526" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40866873" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775664" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26806083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931158" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2728328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931158" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19514018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -779,19 +783,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/rayTracer.cpp</url>
-          <line>36</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Grid.cpp</url>
-          <line>267</line>
+          <line>265</line>
           <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Grid.cpp</url>
-          <line>278</line>
-          <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/BoundingBox.h</url>
@@ -799,7 +793,7 @@
           <option name="timeStamp" value="129" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="130" />
+      <option name="time" value="132" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
@@ -809,20 +803,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/light.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2494">
-          <caret line="86" column="30" lean-forward="false" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phongMaterial.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/MinGW/lib/gcc/mingw32/4.8.1/include/c++/bits/allocator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -844,19 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/MinGW/include/GL/gl.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="648" column="8" lean-forward="false" selection-start-line="648" selection-start-column="8" selection-end-line="648" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,19 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phongMaterial.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/MinGW/include/math.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,50 +901,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="80" lean-forward="true" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hit.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding>
-            <element signature="e#31#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding>
             <element signature="e#37#56#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object3dvector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="e#59#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rayTracer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="e#109#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1001,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,28 +952,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Grid.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#99#120#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/perspectiveCamera.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
+        <state relative-caret-position="945">
           <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ray.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1067,19 +972,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/glCanvas.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
+        <state relative-caret-position="810">
           <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding>
-            <element signature="e#100#117#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,29 +982,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sphere.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
+        <state relative-caret-position="648">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vectors.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="200" column="21" lean-forward="false" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/matrix.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
+        <state relative-caret-position="3834">
           <caret line="142" column="15" lean-forward="false" selection-start-line="142" selection-start-column="15" selection-end-line="142" selection-end-column="15" />
           <folding />
         </state>
@@ -1117,7 +1003,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
+        <state relative-caret-position="1242">
           <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding />
         </state>
@@ -1125,17 +1011,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/transform.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="999">
           <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-          <folding>
-            <element signature="e#109#127#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/glCanvas.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state relative-caret-position="7938">
           <caret line="294" column="15" lean-forward="false" selection-start-line="294" selection-start-column="15" selection-end-line="294" selection-end-column="15" />
           <folding>
             <element signature="e#3868#4537#0" expanded="true" />
@@ -1143,19 +1027,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/object3D.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding>
-            <element signature="e#106#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sphere.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="648">
           <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="e#41#59#0" expanded="true" />
@@ -1165,7 +1039,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plane.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="378">
           <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           <folding>
             <element signature="e#42#60#0" expanded="true" />
@@ -1175,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MarchingInfo.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="675">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="e#41#66#0" expanded="true" />
           </folding>
@@ -1185,19 +1059,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RayTracingStats.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BoundingBox.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,43 +1077,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/BoundingBox.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="978">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="702">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#19#38#0" expanded="true" />
+            <element signature="e#51#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rayTracer.cpp">
+    <entry file="file://$PROJECT_DIR$/Grid.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="432">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
-            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#99#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object3D.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#106#122#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object3dvector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding>
+            <element signature="e#59#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phongMaterial.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phongMaterial.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RayTracingStats.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding>
+            <element signature="e#59#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#31#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Grid.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="846">
+          <caret line="369" column="11" lean-forward="false" selection-start-line="369" selection-start-column="11" selection-end-line="369" selection-end-column="11" />
           <folding>
             <element signature="e#41#59#0" expanded="true" />
-            <marker date="1489497622815" expanded="true" signature="9434:10990" ph="{...}" />
+            <marker date="1489591983390" expanded="true" signature="9236:10792" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RayTracingStats.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        <state relative-caret-position="81">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vectors.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="353" column="43" lean-forward="false" selection-start-line="353" selection-start-column="43" selection-end-line="353" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
-            <element signature="e#59#76#0" expanded="true" />
+            <element signature="e#100#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rayTracer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rayTracer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4380">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

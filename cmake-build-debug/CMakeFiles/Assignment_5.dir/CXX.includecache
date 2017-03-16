@@ -31,6 +31,8 @@ phongMaterial.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/phongMaterial.h
 rayTree.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTree.h
+RayTracingStats.h
+C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Grid.h
 object3D.h
@@ -39,12 +41,6 @@ MarchingInfo.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.h
 object3dvector.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/object3dvector.h
-
-C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Group.h
-vector
--
-object3D.h
-C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/object3D.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/MarchingInfo.cpp
 MarchingInfo.h
@@ -301,14 +297,8 @@ C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignmen
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.cpp
 rayTracer.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.h
-Group.h
-C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/Group.h
-light.h
-C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/light.h
 rayTree.h
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTree.h
-RayTracingStats.h
-C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/RayTracingStats.h
 
 C:/Users/54179/OneDrive/Documents/ClionProjects/IntrotoComputerGraphicsAssignments/Assignment 5/rayTracer.h
 scene_parser.h
